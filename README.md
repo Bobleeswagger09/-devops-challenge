@@ -9,6 +9,9 @@ Victor Samuel
 - API Status: http://54.81.112.218:5000/api/v1/status
 
 ## Architecture Overview
+
+![Architecture Diagram](architecture.png)
+
 Developer (Local Machine)
 |
 | git push to main
