@@ -1,0 +1,33 @@
+# Terraform files
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/*.tfvars
+
+# AWS credentials
+.aws/
+credentials
+
+# SSH keys
+*.pem
+*.key
+devops-challenge
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+# Terraform providers
+terraform/.terraform/
+.terraform/
