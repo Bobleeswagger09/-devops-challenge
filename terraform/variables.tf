@@ -1,15 +1,29 @@
 variable "aws_region" {
-  default = "us-east-1"
+  description = "AWS region"
+  type        = string
+  default     = "us-east-1"
 }
 
 variable "ami_id" {
-  default = "ami-0c02fb55956c7d316"  # Amazon Linux 2 us-east-1
+  description = "Amazon Linux 2 AMI ID"
+  type        = string
+  default     = "ami-0c02fb55956c7d316"
 }
 
 variable "instance_type" {
-  default = "t3.micro"
+  description = "EC2 instance type"
+  type        = string
+  default     = "t3.micro"
+}
+
+variable "app_port" {
+  description = "Application port"
+  type        = number
+  default     = 5000
 }
 
 variable "public_key_path" {
-  default = "~/.ssh/devops-challenge.pub"
+  description = "Path to public SSH key"
+  type        = string
+  default     = "~/.ssh/devops-challenge.pub"
 }
